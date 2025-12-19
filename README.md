@@ -15,17 +15,25 @@ This tool helps you recover tabs that were suspended by the now-removed "The Gre
 
 ## How to use
 
-1. **Build the extension:**
-   ```bash
-   npm run build
-   ```
-2. **Load the extension in Chrome:**
-   - Go to `chrome://extensions`.
-   - Enable "Developer mode".
-   - Click "Load unpacked" and select the `react-app/build` folder.
-3. **Run the extension:**
-   - Click the extension icon in your Chrome toolbar to open the recovery tool.
-4. **Recover your tabs:**
-   - Use the options to group and sort your tabs as needed.
-   - Click "Copy URLs" to copy the tab URLs to your clipboard.
-   - Click "Bookmark All" to save all your tabs to a new bookmark folder.
+1.  **Navigate to the app directory:**
+    ```bash
+    cd react-app
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Build the extension:**
+    ```bash
+    npm run build
+    ```
+4.  **Load the extension in Chrome:**
+    - Go to `chrome://extensions`.
+    - Enable "Developer mode".
+    - Click "Load unpacked" and select the `build` folder inside the `react-app` directory.
+5.  **Run the extension:**
+    - Click the extension icon in your Chrome toolbar to open the recovery tool.
+6.  **Recover your tabs:**
+    - Use the options to group and sort your tabs as needed.
+    - Click "Copy URLs" to copy the tab URLs to your clipboard.
+    - Click "Bookmark All" to save all your tabs to a new bookmark folder.
