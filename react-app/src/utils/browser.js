@@ -1,3 +1,5 @@
+/* global chrome */
+
 export function getFavIcon2 (pageUrl, size = 32) {
   return `chrome://favicon2/?size=${size}&page_url=${pageUrl}&allow_google_server_fallback=1`
 }
